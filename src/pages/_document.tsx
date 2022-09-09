@@ -8,9 +8,8 @@ export default class MyDocument extends Document {
         <Head>
             <link rel="preconnect" href="https://fonts.gstatic.com" />
             <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-            <title>IG News</title>
             <link rel="shortcut icon" href="/favicon.png" type="image/png" />
-            <meta name="description" content="A simple project starter to work with TypeScript, React, NextJS and SaSS" />
+            <meta name="description" content="Aprenda React, NextJS, NodeJS, React Native e muito mais com o melhor conteúdo da comunidade." />
         </Head>
         <body>
           <Main />

@@ -41,3 +41,27 @@
         margin-top: 2rem;
     }
 }
+
+.imageContainer {
+    display: block;
+}
+
+.image {
+    animation: bounce 2s ease-in-out infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-0.5rem);
+    }
+}
+
+@media (max-width: 960px) {
+    .imageContainer {
+        display: none;
+    }
+}
